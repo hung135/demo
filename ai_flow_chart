@@ -1,4 +1,4 @@
-`mermaid`
+```mermaid
 graph LR;
     subgraph GPU_Server
         B("lama.cpp");
@@ -40,3 +40,4 @@ graph LR;
     H -->|Used by| UI_Server;
     Backend_Server -->|Pulls data from| J;
     J -->|Feeds content into| B;
+```
